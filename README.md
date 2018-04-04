@@ -3,6 +3,8 @@ socketio
 ### 步骤：
 npm install socket.io
 
+node wsServer.js  //启动服务
+
 ### websocket：
 
 WebScoket是一种让客户端和服务器之间能进行双向实时通信的技术。它是HTML最新标准HTML5的一个协议规范。WebSocket和HTTP都属于应用层协议，且都是基于TCP的。WebSocket在建立握手连接时，数据是通过HTTP协议传输的（这个请求和通常的 HTTP 请求不同，包含了一些附加头信息，其中附加头信息”Upgrade:WebSocket”表明这是一个申请协议升级的HTTP请求）,但是在连接建立后，真正的数据传输阶段则不需要HTTP协议的参与。这个连接会持续存在直到客户端或者服务器端的某一方主动的关闭连接。
